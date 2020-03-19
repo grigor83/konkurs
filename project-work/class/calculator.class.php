@@ -28,7 +28,7 @@ class calculator{
                               $sqlKreirajTabelu,$sqlKreirajDB, $db);
 		}
 		catch(PDOException $e){
-      $db=null;
+      			$db=null;
 			echo ("Konektovanje na DB nije uspjelo:<br>" . $e->getMessage());
 			echo ("<br>....Kreiram novu DB.....");
 			$this->kreirajDBiTabelu($servername,$username,$password,$dbname,$tablename,
@@ -55,7 +55,7 @@ class calculator{
                               $sqlKreirajTabelu,$sqlKreirajDB, $db);
 		}
 		catch(PDOException $e){
-      $db=null;
+      			$db=null;
 			die ("<br>Kreiranje DB nije uspjelo : " . $e->getMessage());
 		}
 	}
@@ -78,7 +78,7 @@ class calculator{
 			$db=null;
 		}
 		catch(PDOException $e){
-      $db=null;
+      		$db=null;
 			echo ("<br>Umetanje reda u tabelu DB nije uspjelo:<br>" . $e->getMessage());
       $this->kreirajDBiTabelu($servername,$username,$password,$dbname,$tablename,
                               $sqlKreirajTabelu,$sqlKreirajDB, $db);
