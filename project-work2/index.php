@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>PROJECT WORK</title>
+    <title>PROJECT WORK 2</title>
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
