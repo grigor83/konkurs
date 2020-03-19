@@ -2,7 +2,7 @@
 $brojRedova=10;
 $brojKolona=10;
 
-echo "<table id='mojaTabela' border='1' >";
+echo "<table id='mojaTabela'>";
 ištampajZaglavlje($brojKolona);
 ištampajTijeloTabele($brojRedova, $brojKolona);
 echo "</table>";
