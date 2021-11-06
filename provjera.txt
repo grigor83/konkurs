@@ -1,0 +1,1 @@
+Provjera da li radi pull i push
